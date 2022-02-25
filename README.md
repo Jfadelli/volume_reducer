@@ -11,7 +11,7 @@
 This script is designed to toggle the in game volume reducer whenever the player is firing.
 
 ## 2. Installation
-* In order to run this script you need to have AHk (Auto Hotkey) installed. You can find AHK here -> https://www.autohotkey.com/
+* In order to run this script you need to have AHk (Auto Hotkey) installed. You can find <a href="https://www.autohotkey.com">AHK here</a>
 * With AHK installed, download the script found in this repository and place it in whatever directory you wish. 
 * Once you have the script (.ahk file) on your computer, you can run it like you would any executable. When the script is running you will see a small green H icon in the task bar.
 
