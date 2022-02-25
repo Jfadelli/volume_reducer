@@ -5,7 +5,6 @@ x := ((A_ScreenWidth // 2)-65)
 y := ((A_ScreenHeight // 2)+400)
 ^p:: 
     {
-        ; suspend, toggle
         Toggle := !Toggle
         if (Toggle = 1)
         {
@@ -17,7 +16,6 @@ y := ((A_ScreenHeight // 2)+400)
         }
         Sleep, 1000
         ToolTip
-        ; suspend, toggle
         Return
     }
 
