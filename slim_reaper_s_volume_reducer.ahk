@@ -20,18 +20,20 @@ y := ((A_ScreenHeight // 2)+400)
     }
 
 ~LButton::
-    If (Toggle = 1)
-    {
-        GetKeyState(LButton, P)
-        Send, {F7}
-        KeyWait, LButton
-        Send, {F7}
-        Return
-    }
+    IfWinActive, ahk_exe TslGame.exe
+        If (Toggle = 1)
+        {
+            GetKeyState(LButton, P)
+            Send, {F7}
+            KeyWait, LButton
+            Send, {F7}
+            Return
+        }
 Return
 
 ~CapsLock::
     {
+        IfWinActive, ahk_exe TslGame.exe
         SetCapsLockState, off
         return
     }
