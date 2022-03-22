@@ -13,7 +13,7 @@ This script is designed to toggle the in game volume reducer whenever the player
 ## 2. Installation
 * In order to run this script you need to have AHk (Auto Hotkey) installed. You can find <a href="https://www.autohotkey.com">AHK here</a>
 * With AHK installed, download the script found in this repository and place it in whatever directory you wish. (Push the green "Code" button and download and click download zip)
-<img src="https://ibb.co/9HcyxP5" alt="code button example"/> 
+![code button example](https://ibb.co/9HcyxP5)
 * Once you have the script (.ahk file) on your computer, you can run it like you would any executable. When the script is running you will see a small green H icon in the task bar.
 
 ## 3. Controls
